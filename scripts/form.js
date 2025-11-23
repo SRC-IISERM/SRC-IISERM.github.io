@@ -7,7 +7,7 @@ function toggleAnonymous() {
     nameField.value = "Anonymous";
     nameField.readOnly = true;
 
-    emailField.value = "anonymous@iisermohali.ac.in";
+    emailField.value = "src@iisermohali.ac.in";
     emailField.readOnly = true;
   } else {
     nameField.value = "";
