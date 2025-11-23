@@ -1,0 +1,13 @@
+# Ignore specific SVG assets
+assets/hostel5_wireframe.svg
+assets/hostel5_wireframe_animated.svg
+
+# Ignore specific script/style files
+scripts/maino.js
+styles/maino.js
+
+# Ignore specific root-level files
+iiser_mohali_wireframe_preview.png
+iiser_mohali_wireframe.svg
+try.html
+index_old.html

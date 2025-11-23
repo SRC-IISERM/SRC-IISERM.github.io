@@ -1,0 +1,140 @@
+/* Grievance Form Section */
+.grievance-section {
+  padding: 90px 20px;
+  text-align: center;
+}
+
+.form-title {
+  font-size: 2.2rem;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 8px;
+}
+
+.form-subtitle {
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+/* Success Box */
+.success-box {
+  display:none;
+  background: rgba(0,234,255,0.15);
+  border: 1px solid var(--neon-cyan);
+  padding: 12px 18px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+/* Neon Form Wrapper */
+.neon-form {
+  max-width: 650px;
+  margin: auto;
+  padding: 28px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* Input Fields */
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display:block;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.neon-form input,
+.neon-form select,
+.neon-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(0,0,0,0.35);
+  color: white;
+  font-size: 1rem;
+  transition: 0.25s;
+  outline: none;
+}
+
+.neon-form input:focus,
+.neon-form select:focus,
+.neon-form textarea:focus {
+  border-color: var(--neon-cyan);
+  box-shadow: 0 0 12px rgba(0,234,255,0.3);
+}
+
+/* Button */
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: rgba(0,234,255,0.18);
+  border: 1px solid var(--neon-cyan);
+  border-radius: 12px;
+  color:white;
+  font-size: 1.1rem;
+  cursor:pointer;
+  transition: 0.25s;
+}
+
+.submit-btn:hover {
+  transform:translateY(-4px);
+  box-shadow:0 0 20px rgba(0,234,255,0.4);
+}
+
+/* ANONYMOUS MODE TOGGLE */
+.anon-toggle {
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom: 22px;
+  cursor:pointer;
+}
+
+.anon-toggle input {
+  display:none;
+}
+
+.slider {
+  width: 42px;
+  height: 22px;
+  background:#333;
+  border-radius:20px;
+  position:relative;
+  transition:0.25s;
+}
+
+.slider::after {
+  content:"";
+  position:absolute;
+  width:18px;
+  height:18px;
+  background:white;
+  border-radius:50%;
+  top:2px;
+  left:2px;
+  transition:0.25s;
+}
+
+.anon-toggle input:checked + .slider {
+  background: var(--neon-cyan);
+}
+
+.anon-toggle input:checked + .slider::after {
+  transform:translateX(20px);
+}
+
+.label-text {
+  font-size:1rem;
+  opacity:0.85;
+}
