@@ -1,7 +1,7 @@
 srcphoto_directory = "assets/src2025_2026/"
 const TEAM_MEMBERS = [
     // convenor and gen sec
-    { name: "Rohan Sushil", role: "SRC Convenor", group: "core", meta: "MS23220", photo: "" },
+    { name: "Rohan Sushil", role: "SRC Convenor", group: "core", meta: "MS23220", photo: "rohan.jpeg" },
     { name: "Vedantika Dey", role: "General Secretary", group: "core", meta: "MS23239", photo: "IMG_2099 - Vedantika Dey.jpeg" },
 
     // secretary
@@ -34,7 +34,7 @@ const TEAM_MEMBERS = [
     { name: "Shubham Sehgal", role: "MS22 Maths Dept. Rep", group: "department", meta: "MS22030", photo: "" },
     { name: "Daksh Arora", role: "MS23 Maths Dept. Rep", group: "department", meta: "MS23206", photo: "" },
     
-    { name: "Rohan Sushil", role: "MS23 Phy Dept. Rep", group: "department", meta: "MS23220", photo: "" },
+    { name: "Rohan Sushil", role: "MS23 Phy Dept. Rep", group: "department", meta: "MS23220", photo: "rohan.jpeg" },
     
     { name: "Sachin Kumar Mishra", role: "EES PhD Rep", group: "department", meta: "PH22064", photo: "IMG_20251017_174016 - Sachin Mishra.jpg" },
     { name: "Himganga Joji", role: "HSS PhD Rep", group: "department", meta: "PH24059", photo: "" },
