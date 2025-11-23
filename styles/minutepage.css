@@ -1,0 +1,62 @@
+/* PAGE STYLING */
+.minutes-wrapper {
+  max-width: 850px;
+  margin: 90px auto 50px auto;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 30px 40px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+/* HEADER CARD */
+.minutes-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.minutes-header img {
+  width: 70px;
+  border-radius: 10px;
+}
+
+.minutes-meta {
+  font-size: 0.95rem;
+  line-height: 1.4rem;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+/* CONTENT STYLING */
+#content h1, #content h2, #content h3 {
+  color: #3ec6ff;
+  margin-top: 25px;
+}
+
+#content p, #content li {
+  line-height: 1.6rem;
+  margin: 8px 0;
+}
+
+#content ul {
+  margin-left: 25px;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #a4d0ff;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  background: rgba(62, 198, 255, 0.2);
+  border-color: #3ec6ff;
+}

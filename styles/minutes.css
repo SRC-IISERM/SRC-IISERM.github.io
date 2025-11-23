@@ -1,0 +1,47 @@
+.minutes-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 20px;
+  width: 300px;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.minutes-card:hover {
+  transform: translateY(-5px);
+  border-color: #8a2be2;
+}
+
+.minutes-card img.header-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.minutes-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.minutes-date {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.minutes-btn {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 8px 16px;
+  background: #8a2be2;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+
+.minutes-btn:hover {
+  background: #a855f7;
+}
