@@ -3,57 +3,38 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>SRC IISER Mohali</title>
+<title>Life @ IISER Mohali</title>
 
 <link rel="stylesheet" href="styles/main.css">
-<link rel="stylesheet" href="styles/team.css">
-<link rel="stylesheet" href="styles/form.css">
-<link rel="stylesheet" href="styles/cards.css">
+<link rel="stylesheet" href="styles/life.css">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- NAV -->
+<!-- NAV (same as your template) -->
 <header class="nav-holder">
   <nav id="siteNav" class="nav">
-
-    <!-- LEFT: LOGO + BRAND -->
     <div class="nav-left">
       <img src="assets/logo.png" class="logo"/>
-      <div class="brand">
-        <a href="index.html" style="text-decoration: none;">
-          SRC IISER Mohali
-        </a>
-      </div>
+      <div class="brand"><a href="index.html">SRC IISER Mohali</a></div>
     </div>
-
-    <!-- HAMBURGER (mobile only) -->
-    <div class="hamburger" id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
-    <!-- RIGHT: NAV LINKS -->
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
     <div class="nav-links" id="navLinks">
       <a href="index.html#about">About</a>
       <a href="index.html#members">Members</a>
       <a href="minutes.html">Minutes</a>
-      <a href="index.html#grievance">Grievance</a>
       <a href="downloads.html">Downloads</a>
-      <a href="campuslife.html">Life @ IISERM</a>
+      <a href="campuslife.html" class="active">Life @ IISERM</a>
       <a href="prevsrc.html">Previous SRC</a>
       <a href="index.html#contact">Contact</a>
     </div>
-
   </nav>
-  <!-- MOBILE MENU -->
+
   <div class="mobile-menu" id="mobileMenu">
     <a href="index.html">Home</a>
     <a href="index.html#members">Members</a>
     <a href="minutes.html">Minutes</a>
-    <a href="index.html#grievance">Grievance</a>
     <a href="downloads.html">Downloads</a>
     <a href="campuslife.html">Life @ IISERM</a>
     <a href="prevsrc.html">Previous SRC</a>
@@ -63,48 +44,150 @@
       <h3>SRC IISER Mohali</h3>
       <p>Voice • Representation • Action</p>
     </div>
-
   </div>
 
   <div class="menu-overlay" id="menuOverlay"></div>
-
 </header>
 
+<!-- HERO PARALLAX -->
+<section class="life-hero">
+  <div class="life-hero-overlay"></div>
+  <div class="life-hero-content">
+    <h1 class="life-title-hero">Life @ IISER Mohali</h1>
+    <p class="life-sub-hero">A vibrant, scientific and creative community — hostels, labs, clubs & culture.</p>
+  </div>
+</section>
 
+<!-- ABOUT (glass) -->
+<section class="life-about" id="about">
+  <div class="life-about-box">
+    <h2 class="life-section-title">About IISER Mohali Campus</h2>
+    <p>
+      IISER Mohali is more than a campus — it’s an ecosystem. 24×7 laboratories, collaborative research culture,
+      lively hostels, abundant green spaces, sports facilities, and a rich spectrum of clubs and festivals make
+      student life energetic and memorable. This page collects quick guides, resources, and interactive pointers
+      to help students navigate campus life.
+    </p>
+  </div>
+</section>
+
+<hr class="life-sep">
+
+<!-- HIGHLIGHTS -->
+<section class="section life-section">
+  <div class="container">
+    <h2 class="life-section-title">Campus Highlights</h2>
+    <p class="life-subtitle">Quick descriptions of the major parts of campus life.</p>
+
+    <div class="life-cards">
+      <div class="life-card">
+        <img src="assets/hostels.avif" alt="Hostels">
+        <h3>Hostels</h3>
+        <p>Hostels house the community — wings, study groups, and late-night project sessions. Warden & mess contacts
+           are essential; keep emergency numbers saved. Wing culture and events happen throughout the year.</p>
+      </div>
+
+      <div class="life-card">
+        <img src="assets/iiser.jpeg" alt="Mess">
+        <h3>Mess & Food</h3>
+        <p>We have student run mess - which serves delicious and nutritious food all over the year at affordable prices. Additionally we have 2 restaurants, 2 canteens, 1 tendered mess, and 1 eatery shop, which are monitored by food monitoring committee. 
+            The Food Monitoring Committee evaluates quality — raise issues through
+           SRC forms or the mess committee. Late-night eateries (SRM) and kiosks are available for snacks.</p>
+      </div>
+
+      <div class="life-card">
+        <img src="https://www.iisermohali.ac.in/images/siteimages/Pageimages/campusfacilities/webp/gallerywebp/ViewfromAB2-Mohammad_Khalid.webp" alt="Labs">
+        <h3>Research & Labs</h3>
+        <p>Open-lab culture, research projects across disciplines, and frequent seminars. Respect lab SOPs and safety rules.
+           Faculty and senior students are great mentors for projects.</p>
+      </div>
+
+      <div class="life-card">
+        <img src="https://www.iisermohali.ac.in/images/siteimages/Pageimages/campusfacilities/webp/gallerywebp/iisermlibrary_manuadhikari.webp" alt="Library">
+        <h3>Library</h3>
+        <p>Modern library with study cabins and digital resources. Reserve rooms for group study and use inter-library services
+           for hard-to-find texts.</p>
+      </div>
+
+      <div class="life-card">
+        <img src="assets/stadium.JPG" alt="Sports">
+        <h3>Sports</h3>
+        <p>Football ground, cricket nets, badminton courts, and running tracks. Join the sports clubs for coaching and events.</p>
+      </div>
+
+      <div class="life-card">
+        <img src="https://www.iisermohali.ac.in/images/siteimages/Pageimages/campusfacilities/webp/gallerywebp/mountainviewfromiiserm_Diyanshu_Baranwal.webp" alt="Campus life">
+        <h3>Campus Culture</h3>
+        <p>Fests, jam sessions, late-night discussions, astronomy nights, and arts performances make the campus lively — participate!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="life-sep">
+
+<!-- INTERACTIVE MAP -->
+<section class="section campus-map-section">
+  <div class="container">
+    <h2 class="campus-title">Interactive Campus Map</h2>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.90252258119!2d76.72712169650639!3d30.664873281363327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fe955afa88bcf%3A0xab6356114a6f197f!2sIISER%20Mohali!5e0!3m2!1sen!2sin!4v1763930036717!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+<hr class="life-sep">
+
+<!-- CLUBS (scraped & listed) -->
+<section class="section life-section">
+  <div class="container">
+    <h2 class="life-section-title">Clubs & Societies</h2>
+    
+    <div id="clubsGrid" class="clubs-grid"></div>
+  </div>
+</section>
+
+<hr class="life-sep">
+
+<!-- FEST HIGHLIGHTS -->
+<section class="section life-section">
+  <div class="container">
+    <h2 class="life-section-title">Fest Highlights</h2>
+
+    <div class="fest-grid">
+      <a href="https://iiserm.github.io/insomnia_iiser_mohali/" target="_blank" class="fest-card">
+        <h3>Insomnia</h3>
+        <p>Annual techno-cultural fest — music, competitions, workshops & late-night madness.</p>
+      </a>
+
+      <a href="https://iiserm.github.io/FoundationDay/" target="_blank" class="fest-card">
+        <h3>Foundation Day</h3>
+        <p>Institute founding celebrations, talks, awards, and campus-wide events.</p>
+      </a>
+
+      <a href="#" target="_blank" class="fest-card">
+        <h3>Tattva</h3>
+        <p>Annual science fest of IISER Mohali.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<hr class="life-sep">
 
 <footer class="footer">
   <div class="footer-container">
-
     <div class="footer-left">
       <h3 class="footer-title">SRC IISER Mohali</h3>
       <p class="footer-sub">Voice • Representation • Action</p>
     </div>
-
     <div class="footer-right">
-
-      <div class="footer-socials footer-dev">
-        In development with ❤️ by <br> 
-        <a href="https://github.com/tanmay1902" target="_blank">Tanmay Pandey</a>
-        <a href="https://github.com/tanmay1902" target="_blank" class="footer-icon">
-          <svg viewBox="0 0 24 24">
-            <path fill="currentColor"
-              d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.43 7.86 10.96.58.11.79-.25.79-.56v-2.17c-3.2.7-3.88-1.36-3.88-1.36-.53-1.36-1.29-1.72-1.29-1.72-1.06-.72.08-.71.08-.71 1.18.08 1.8 1.21 1.8 1.21 1.04 1.78 2.73 1.27 3.4.97.1-.75.41-1.27.75-1.57-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.2-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.75.81 1.2 1.84 1.2 3.1 0 4.43-2.7 5.4-5.28 5.69.42.37.8 1.11.8 2.25v3.33c0 .31.2.68.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
-          </svg>
-        </a>
-      </div>
+      <div class="footer-socials footer-dev">In development with ❤️ by <br><a href="https://github.com/tanmay1902" target="_blank">Tanmay Pandey</a></div>
     </div>
-
   </div>
-
-  <div class="footer-bottom">
-    <p>© 2025 SRC IISER Mohali</p>
-  </div>
+  <div class="footer-bottom"><p>© 2025 SRC IISER Mohali</p></div>
 </footer>
 
-
 <script src="scripts/main.js"></script>
-<script src="scripts/team.js"></script>
-<script src="scripts/form.js"></script>
-
+<script src="scripts/life.js"></script>
 </body>
 </html>

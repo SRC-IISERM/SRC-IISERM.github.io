@@ -1,0 +1,12 @@
+{
+  "_comment": "Add reports inside 'reports'. Format: { title, file, type }",
+
+  "constitution": {
+    "title": "SRC Constitution 2025",
+    "file": "downloads/SRC Constitution Final Draft.pdf"
+  },
+
+  "reports": [],
+
+  "others": []
+}

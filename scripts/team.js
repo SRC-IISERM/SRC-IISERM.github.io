@@ -2,7 +2,7 @@ srcphoto_directory = "assets/src2025_2026/"
 const TEAM_MEMBERS = [
     // convenor and gen sec
     { name: "Rohan Sushil", role: "SRC Convenor", group: "core", meta: "MS23220", photo: "rohan.jpeg" },
-    { name: "Vedantika Dey", role: "General Secretary", group: "core", meta: "MS23239", photo: "IMG_2099 - Vedantika Dey.jpeg" },
+    { name: "Vedantika Dey", role: "General Secretary", group: "core", meta: "MS23239", photo: "IMG_7246 - Vedantika Dey.jpeg" },
 
     // secretary
     { name: "Aaradhya Sharma", role: "Academic Secretary", group: "core", meta: "MS23047", photo: "" },
@@ -10,9 +10,9 @@ const TEAM_MEMBERS = [
     { name: "Dinesh Kumar Sethi", role: "Sports Secretary", group: "core", meta: "PH23023", photo: "" },
 
     // hostel rep
-    { name: "Tanmay Pandey", role: "H7 - Boys Rep", group: "hostel", meta: "MS22113", photo: "" },
+    { name: "Tanmay Pandey", role: "H7 - Boys Rep", group: "hostel", meta: "MS22113", photo: "IMG-20251124-WA0003 - Tanmay Pandey.jpg" },
     { name: "Rishikesh Vijay Singh", role: "H3 - Boys Rep", group: "hostel", meta: "MS23060", photo: "IMG-20251001-WA0289 - Rishikesh Singh.jpg" },
-    { name: "Vedantika Dey", role: "H3 - Girls Rep", group: "hostel", meta: "MS23239", photo: "IMG_2099 - Vedantika Dey.jpeg" },
+    { name: "Vedantika Dey", role: "H3 - Girls Rep", group: "hostel", meta: "MS23239", photo: "IMG_7246 - Vedantika Dey.jpeg" },
     { name: "Vishvendra Singh", role: "H4 - Boys Rep", group: "hostel", meta: "MS25284", photo: "IMG20251015143851 - VISHVENDRA SINGH.jpg" },
     
     // batch reps
@@ -24,7 +24,7 @@ const TEAM_MEMBERS = [
     //department rep
     
     { name: "Amey Chandak", role: "MS22 Bio Dept. Rep", group: "department", meta: "MS22096", photo: "IMG_20230201_001830_057 - sam sam.webp" },
-    { name: "Diljit Tiwana", role: "MS23 Bio Dept. Rep", group: "department", meta: "MS22096", photo: "" },
+    { name: "Diljit Singh Tiwana", role: "MS23 Bio Dept. Rep", group: "department", meta: "MS22096", photo: "img_4731 - Diljit Singh.jpeg" },
 
     { name: "Anjela Datta", role: "MS22 Chem Dept. Rep", group: "department", meta: "MS22261", photo: "" },
     { name: "Sakshi", role: "MS23 Chem Dept. Rep", group: "department", meta: "MS23105", photo: "IMG-20250921-WA0127 - Sakshi.jpg" },

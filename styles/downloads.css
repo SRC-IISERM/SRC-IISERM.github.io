@@ -1,0 +1,68 @@
+.downloads-controls {
+  max-width: 900px;
+  margin: 30px auto;
+  display: flex;
+  gap: 15px;
+}
+
+.downloads-controls input,
+.downloads-controls select {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: white;
+}
+
+.downloads-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.download-card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  transition: 0.25s;
+}
+
+.download-card:hover {
+  transform: translateY(-6px);
+  border-color: #8a2be2;
+}
+
+.download-icon {
+  width: 55px;
+  margin-bottom: 12px;
+}
+
+.download-title {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.download-cat {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-bottom: 12px;
+}
+
+.download-btn {
+  padding: 8px 16px;
+  background: #8a2be2;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+.download-btn:hover {
+  background: #a855f7;
+}

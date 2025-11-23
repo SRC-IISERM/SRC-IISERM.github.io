@@ -1,0 +1,58 @@
+/* life.css - neon style for Life @ IISERM */
+
+/* reuse root variables from main.css */
+.life-hero { height: 72vh; background: url("../assets/iiserh.webp") center/cover fixed; position: relative; display:flex; align-items:center; justify-content:center;}
+.life-hero-overlay { position:absolute; inset:0; background: rgba(0,0,0,0.45); backdrop-filter: blur(2px); }
+.life-hero-content { position:relative; text-align:center; z-index:2; }
+.life-title-hero { font-size:3rem; font-weight:700; background: var(--gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+.life-sub-hero { opacity:0.9; margin-top:8px; }
+
+/* glass about card */
+.life-about { margin-top:-55px; display:flex; justify-content:center; padding:30px 20px; }
+.life-about-box { max-width:920px; background: rgba(255,255,255,0.04); border-radius:16px; padding:36px; border:1px solid rgba(255,255,255,0.08); backdrop-filter: blur(10px); }
+
+/* separator */
+.life-sep { border:0; height:48px; display:block; background:linear-gradient(90deg, transparent, rgba(0,234,255,0.06), transparent); margin:40px 0; position:relative; }
+.life-sep::after { content:''; display:block; width:60%; height:2px; margin: -28px auto 0 auto; background:linear-gradient(90deg, var(--neon-cyan), var(--neon-purple)); filter: drop-shadow(0 0 10px rgba(0,234,255,0.08)); border-radius:2px; }
+
+/* cards */
+.life-section{padding:50px 20px;}
+.life-cards{display:flex;flex-wrap:wrap;gap:22px;margin-top:18px;}
+.life-card{flex:1 1 300px;background:rgba(255,255,255,0.04);border-radius:14px;border:1px solid rgba(255,255,255,0.06);overflow:hidden;backdrop-filter: blur(8px);transition:transform .25s;}
+.life-card img{width:100%;height:160px;object-fit:cover;display:block;}
+.life-card h3{margin:14px 16px 6px;color:#fff;}
+.life-card p{margin:0 16px 16px;color:rgba(223,233,255,0.9);line-height:1.45}
+
+/* campus map grid */
+.campus-map-grid{display:grid;grid-template-columns:1fr 460px;gap:22px;align-items:start;margin-top:18px;}
+.campus-map-live iframe{width:100%;height:360px;border:0;border-radius:12px;overflow:hidden;box-shadow: 0 10px 40px rgba(0,0,0,0.6);}
+.map-note{margin-top:8px;font-size:0.9rem;opacity:0.8}
+.open-map-btn{display:inline-block;margin-top:8px;padding:8px 12px;border-radius:10px;background:rgba(0,234,255,0.08);border:1px solid var(--neon-cyan);text-decoration:none;color:white;}
+
+/* svg wrap */
+.campus-map-svg-wrap{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:8px;}
+.campus-map-svg-wrap svg{width:100%;height:360px}
+
+/* node detail card */
+.campus-node-card{position:fixed;right:24px;bottom:28px;width:320px;background:rgba(13,13,15,0.95);border-radius:12px;padding:18px;border:1px solid rgba(0,234,255,0.08);backdrop-filter: blur(6px);box-shadow: 0 10px 40px rgba(0,0,0,0.6);z-index:2000;color:#dfe9ff;}
+.campus-node-card.hidden{display:none}
+.node-close{position:absolute;right:12px;top:8px;background:transparent;border:0;color:#cfeeff;font-size:18px;cursor:pointer}
+.campus-node-card h3{margin:0 0 8px 0}
+.campus-node-card p{margin:0 0 12px 0;opacity:0.9}
+.campus-node-card .open-map-btn{display:inline-block}
+
+/* clubs grid */
+.clubs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:18px}
+.club-card{background:rgba(255,255,255,0.03);padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.05);backdrop-filter: blur(6px)}
+.club-card h4{margin:0 0 6px 0}
+.club-card p{margin:0;color:rgba(200,220,255,0.9);font-size:0.95rem}
+.club-email{opacity:0.85;margin-top:6px;font-size:0.9rem}
+
+/* fest & repos */
+.fest-grid, .repos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:18px}
+.fest-card, .repo-card{background:rgba(255,255,255,0.03);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.05);text-decoration:none;color:inherit}
+.fest-card h3, .repo-card h3{margin:0 0 8px 0}
+
+/* responsive tweaks */
+@media (max-width: 980px){ .campus-map-grid{grid-template-columns:1fr} .campus-node-card{position:fixed;left:12px;right:12px;bottom:20px;width:auto} }
+@media (max-width:640px){ .life-title-hero{font-size:2rem} .life-card img{height:120px} .campus-map-live iframe,.campus-map-svg-wrap svg{height:260px} }

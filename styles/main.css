@@ -443,3 +443,171 @@ h2 {
     align-items: center;
   }
 }
+
+/* SRC-GPT SECTION -------------------------------------- */
+
+.src-gpt-section {
+  margin-top: 80px;
+  padding: 80px 20px;
+}
+
+.src-gpt-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.src-gpt-subtitle {
+  font-size: 1.05rem;
+  opacity: 0.75;
+  margin-bottom: 40px;
+}
+
+.src-gpt-box {
+  padding: 35px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 0 25px rgba(0,234,255,0.15);
+  border: 1px solid rgba(0,234,255,0.2);
+  backdrop-filter: blur(12px);
+  max-width: 850px;
+  margin: auto;
+}
+
+.src-gpt-heading {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.src-gpt-text {
+  line-height: 1.7rem;
+  opacity: 0.9;
+  margin-bottom: 25px;
+}
+
+.src-gpt-btn {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 14px;
+  background: rgba(0,234,255,0.15);
+  border: 1px solid var(--neon-cyan);
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+.src-gpt-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 12px var(--neon-cyan);
+}
+
+/* Parallax Effect */
+  .parallax-bg {
+    background-attachment: fixed;
+    transform: translateZ(0);
+  }
+
+  /* Neon text glow */
+  .neon-text {
+    text-shadow: 0 0 8px #00ffff, 0 0 14px #00ffff, 0 0 22px #00ffff;
+  }
+
+  /* Softer glow for paragraph */
+  .neon-faint {
+    text-shadow: 0 0 4px rgba(0,255,255,0.5);
+  }
+
+  /* ----------------------------------------
+   PARALLAX SECTION FOR ABOUT SRC
+----------------------------------------- */
+
+.src-parallax {
+  position: relative;
+  width: 100%;
+  height: 95vh;
+  background: url("../assets/iiserh.webp") center/cover fixed;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dark hologram overlay */
+.src-parallax-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(1px);
+}
+
+/* Glassmorphism card */
+.src-parallax-content {
+  position: relative;
+  width: 60%;
+  padding: 30px 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.15);
+  backdrop-filter: blur(14px);
+  z-index: 3;
+  animation: holoFade 1.2s ease-out;
+}
+
+/* Neon gradient title */
+.src-parallax-title {
+  background: linear-gradient(90deg, var(--neon-cyan), var(--neon-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Body text */
+.src-parallax-text {
+  color: var(--text);
+  font-size: 1.05rem;
+  line-height: 1.65rem;
+  opacity: 0.95;
+}
+
+/* Fade entry */
+@keyframes holoFade {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* ----------------------------------------
+   Mobile Responsive
+----------------------------------------- */
+@media (max-width: 768px) {
+  .src-parallax {
+    height: auto;
+    padding: 90px 0;
+    background-attachment: scroll;
+  }
+
+  .src-parallax-content {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .src-parallax-title {
+    font-size: 1.8rem;
+  }
+}
