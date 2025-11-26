@@ -11,3 +11,8 @@ iiser_mohali_wireframe_preview.png
 iiser_mohali_wireframe.svg
 try.html
 index_old.html
+
+.gitignore
+
+__pycache
+*.py
