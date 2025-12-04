@@ -10,7 +10,7 @@ const TEAM_MEMBERS = [
     { name: "Dinesh Kumar Sethi", role: "Sports Secretary", group: "core", meta: "PH23023", photo: "dinesh.jpeg" },
 
     // hostel rep
-    { name: "Tanmay Pandey", role: "H7 - Boys Rep", group: "hostel", meta: "MS22113", photo: "IMG-20251124-WA0003 - Tanmay Pandey.jpg" },
+    { name: "Tanmay Pandey", role: "H7 - Boys Rep", group: "hostel", meta: "MS22113", photo: "tanmay.jpeg" },
     { name: "Rishikesh Vijay Singh", role: "H3 - Boys Rep", group: "hostel", meta: "MS23060", photo: "IMG-20251001-WA0289 - Rishikesh Singh.jpg" },
     { name: "Vedantika Dey", role: "H3 - Girls Rep", group: "hostel", meta: "MS23239", photo: "IMG_7246 - Vedantika Dey.jpeg" },
     { name: "Vishvendra Singh", role: "H4 - Boys Rep", group: "hostel", meta: "MS25284", photo: "IMG20251015143851 - VISHVENDRA SINGH.jpg" },
