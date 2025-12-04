@@ -24,7 +24,7 @@ const TEAM_MEMBERS = [
     //department rep
     
     { name: "Amey Chandak", role: "MS22 Bio Dept. Rep", group: "department", meta: "MS22096", photo: "IMG_20230201_001830_057 - sam sam.webp" },
-    { name: "Diljit Singh Tiwana", role: "MS23 Bio Dept. Rep", group: "department", meta: "MS22096", photo: "img_4731 - Diljit Singh.jpeg" },
+    { name: "Diljit Singh Tiwana", role: "MS23 Bio Dept. Rep", group: "department", meta: "MS22096", photo: "IMG_4731 - Diljit Singh.jpeg" },
 
     { name: "Anjela Datta", role: "MS22 Chem Dept. Rep", group: "department", meta: "MS22261", photo: "anjela.jpeg" },
     { name: "Sakshi", role: "MS23 Chem Dept. Rep", group: "department", meta: "MS23105", photo: "IMG-20250921-WA0127 - Sakshi.jpg" },
