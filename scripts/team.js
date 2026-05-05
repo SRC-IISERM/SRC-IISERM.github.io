@@ -2,17 +2,17 @@ srcphoto_directory = "assets/src2025_2026/"
 const TEAM_MEMBERS = [
     // convenor and gen sec
     { name: "Rohan Sushil", role: "SRC Convenor", group: "core", meta: "MS23220", photo: "rohan.jpeg" },
-    { name: "Vedantika Dey", role: "General Secretary", group: "core", meta: "MS23239", photo: "IMG_7246 - Vedantika Dey.jpeg" },
+    { name: "Tanmay Pandey", role: "General Secretary", group: "core", meta: "MS22113", photo: "tanmay.jpeg" },
 
     // secretary
     { name: "Aaradhya Sharma", role: "Academic Secretary", group: "core", meta: "MS23047", photo: "aaradhya.jpeg" },
-    { name: "Manu A Sankaran", role: "Cultural Secretary", group: "core", meta: "MS23029", photo: "bld - Manu Sankaran.jpg" },
+    //{ name: "Manu A Sankaran", role: "Cultural Secretary", group: "core", meta: "MS23029", photo: "bld - Manu Sankaran.jpg" },
     { name: "Dinesh Kumar Sethi", role: "Sports Secretary", group: "core", meta: "PH23023", photo: "dinesh.jpeg" },
 
     // hostel rep
     { name: "Tanmay Pandey", role: "H7 - Boys Rep", group: "hostel", meta: "MS22113", photo: "tanmay.jpeg" },
     { name: "Rishikesh Vijay Singh", role: "H3 - Boys Rep", group: "hostel", meta: "MS23060", photo: "IMG-20251001-WA0289 - Rishikesh Singh.jpg" },
-    { name: "Vedantika Dey", role: "H3 - Girls Rep", group: "hostel", meta: "MS23239", photo: "IMG_7246 - Vedantika Dey.jpeg" },
+    //{ name: "Vedantika Dey", role: "H3 - Girls Rep", group: "hostel", meta: "MS23239", photo: "IMG_7246 - Vedantika Dey.jpeg" },
     { name: "Vishvendra Singh", role: "H4 - Boys Rep", group: "hostel", meta: "MS25284", photo: "IMG20251015143851 - VISHVENDRA SINGH.jpg" },
     
     // batch reps
@@ -27,20 +27,20 @@ const TEAM_MEMBERS = [
     { name: "Diljit Singh Tiwana", role: "MS23 Bio Dept. Rep", group: "department", meta: "MS23136", photo: "IMG_4731 - Diljit Singh.jpeg" },
 
     { name: "Anjela Datta", role: "MS22 Chem Dept. Rep", group: "department", meta: "MS22261", photo: "anjela.jpeg" },
-    { name: "Sakshi", role: "MS23 Chem Dept. Rep", group: "department", meta: "MS23105", photo: "IMG-20250921-WA0127 - Sakshi.jpg" },
+//    { name: "Sakshi", role: "MS23 Chem Dept. Rep", group: "department", meta: "MS23105", photo: "IMG-20250921-WA0127 - Sakshi.jpg" },
 
-    { name: "Kumar Twarit", role: "MS23 EES Dept. Rep", group: "department", meta: "MS23018", photo: "src photo - Kumar Twarit.jpg" },
+  //  { name: "Kumar Twarit", role: "MS23 EES Dept. Rep", group: "department", meta: "MS23018", photo: "src photo - Kumar Twarit.jpg" },
     
     { name: "Shubham Sehgal", role: "MS22 Maths Dept. Rep", group: "department", meta: "MS22030", photo: "shubham.jpeg" },
-    { name: "Daksh Arora", role: "MS23 Maths Dept. Rep", group: "department", meta: "MS23206", photo: "daksh.jpeg" },
+    //{ name: "Daksh Arora", role: "MS23 Maths Dept. Rep", group: "department", meta: "MS23206", photo: "daksh.jpeg" },
     
     { name: "Rohan Sushil", role: "MS23 Phy Dept. Rep", group: "department", meta: "MS23220", photo: "rohan.jpeg" },
     
     { name: "Sachin Kumar Mishra", role: "EES PhD Rep", group: "department", meta: "PH22064", photo: "IMG_20251017_174016 - Sachin Mishra.jpg" },
     { name: "Himganga Joji", role: "HSS PhD Rep", group: "department", meta: "PH24059", photo: "IMG-20251123-WA0077(1) - Himaganga Joji.jpg" },
     { name: "Achalesh Nimbikial", role: "EES Pre-Major Rep", group: "department", meta: "MS24255", photo: "MS24255.   8737 - ACHALESH NIMBIWAL.jpg" },
-    { name: "Varun Arora", role: "Chem Pre-Major Rep", group: "department", meta: "MS24261", photo: "IMG-20250927-WA0017 - VARUN ARORA.jpg" },
-    { name: "Saivi Dhanesh Zaveri ", role: "Bio Pre-Major Rep", group: "department", meta: "MS24216", photo: "saivi.jpeg" },
+    //{ name: "Varun Arora", role: "Chem Pre-Major Rep", group: "department", meta: "MS24261", photo: "IMG-20250927-WA0017 - VARUN ARORA.jpg" },
+    //{ name: "Saivi Dhanesh Zaveri ", role: "Bio Pre-Major Rep", group: "department", meta: "MS24216", photo: "saivi.jpeg" },
     
 
 ];
